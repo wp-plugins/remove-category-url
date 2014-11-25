@@ -2,10 +2,10 @@
 Contributors: valeriosza
 Tags: categories, category base, category, permalinks, URL structure, links, seo, cms, wpml, URL
 Requires at least: 3.1
-Tested up to: 4.0
+Tested up to: 4.1.0
 Stable tag: 0.1.0
 License: GPLv2
-Donate link: 
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=P5QTGDB64SU8E&lc=US&item_name=WordPress%20Plugins&no_note=0&cn=Adicionar%20instru%c3%a7%c3%b5es%20especiais%20para%20o%20vendedor%3a&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 
 This plugin removes '/category' from your category permalinks. (e.g. `/category/my-category/` to `/my-category/`)
 
@@ -27,6 +27,12 @@ No configuration is required
 8. Works with WordPress Multisite.
 9. Redirects old category permalinks to the new ones (301 redirect, good for SEO).
 
+= Heads up: =
+
+Read the [FAQ](https://wordpress.org/plugins/remove-category-url/faq/) before use.
+
+Want to help? Use the [support](https://wordpress.org/support/plugin/remove-category-url)
+
 == Installation ==
 
 1. Upload `remove-category-url.zip` to the `/wp-content/plugins/` directory
@@ -47,6 +53,9 @@ As far as I can tell, no. I have been using this on several blogs for a while an
 
 Simply don't have a page and category with the same slug. Even if they do have the same slug it won't break anything, just the category will get priority (Say if a category and page are both 'xyz' then `mydomain.com/xyz/` will give you the category). This can have an useful side-effect. Suppose you have a category 'news', you can add a page 'news' which will show up in the page navigation but will show the 'news' category.
 
+= The plugin has been uninstalled, but the slug /category/ did not reappear why? =
+
+A particular installation does not allow the rewrite feature in disabling the plugin. Try after disabling the plugin, save permanent links again.
 
 == Screenshots ==
 
