@@ -2,8 +2,8 @@
 Contributors: valeriosza
 Tags: categories, category base, category, permalinks, URL structure, links, seo, cms, wpml, URL
 Requires at least: 3.1
-Tested up to: 4.1
-Stable tag: 0.1.0
+Tested up to: 4.2
+Stable tag: 1.0.2
 License: GPLv2
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=P5QTGDB64SU8E&lc=US&item_name=WordPress%20Plugins&no_note=0&cn=Adicionar%20instru%c3%a7%c3%b5es%20especiais%20para%20o%20vendedor%3a&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 
@@ -35,8 +35,8 @@ Want to help? Use the [support](https://wordpress.org/support/plugin/remove-cate
 
 == Installation ==
 
-1. Upload `remove-category-url.zip` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload `remove-category-url.zip` to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. That's it! You sould now be able to access your categories via http://mydomain.com/my-category/
 
 == Frequently Asked Questions ==
@@ -63,10 +63,22 @@ A particular installation does not allow the rewrite feature in disabling the pl
 
 == Changelog ==
 
+= 1.0.2 =
+* Update Compatible with WPML.
+
+= 0.1.1 =
+* Add uninstall.
+
 = 0.1.0 =
 * Initial release.
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+* Update Compatible with WPML.
+
+= 0.1.1 =
+* Add uninstall.
 
 = 0.1.0 =
 * Initial release.
