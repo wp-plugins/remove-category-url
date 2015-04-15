@@ -3,7 +3,7 @@
 Plugin Name: Remove Category URL
 Plugin URI: https://github.com/valeriosouza/remove-category-url
 Description: This plugin removes '/category' from your category permalinks. (e.g. `/category/my-category/` to `/my-category/`)
-Version: 1.0.1
+Version: 1.0.2
 Author: Valerio Souza
 Author URI: http://valeriosouza.com.br/
 */
